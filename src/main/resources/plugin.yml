@@ -1,0 +1,9 @@
+name: StackSerializer
+main: com.jstnf.stackserializer.StackSerializer
+version: 1.0
+author: jstnf
+
+commands:
+  serialize:
+    permission: stackserializer.serialize
+    description: Serialize the item in your hand into a JSON format.
