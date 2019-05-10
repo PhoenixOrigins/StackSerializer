@@ -7,7 +7,8 @@ public class StackSerializer extends JavaPlugin
     @Override
     public void onEnable()
     {
-        getCommand("serialize").setExecutor(new SerializeCommand(this));
+        getCommand("deserializelast").setExecutor(new DeserializeLastCommand());
+        getCommand("serialize").setExecutor(new SerializeCommand());
     }
 
     @Override

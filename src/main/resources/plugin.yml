@@ -4,6 +4,9 @@ version: 1.0
 author: jstnf
 
 commands:
+  deserializelast:
+    permission: stackserializer.deserializelast
+    description: Deserialize and give the item that was last serialized.
   serialize:
     permission: stackserializer.serialize
     description: Serialize the item in your hand into a JSON format.
